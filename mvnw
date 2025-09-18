@@ -30,7 +30,7 @@
 #   MVNW_VERBOSE - true: enable verbose log; debug: trace the mvnw script; others: silence the output
 # ----------------------------------------------------------------------------
 
-et -euf
+set -euf
 [ "${MVNW_VERBOSE-}" != debug ] || set -x
 
 # OS specific support.
