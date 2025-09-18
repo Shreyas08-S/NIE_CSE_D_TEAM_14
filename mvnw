@@ -16,6 +16,7 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
+
 # ----------------------------------------------------------------------------
 
 # ----------------------------------------------------------------------------
@@ -29,7 +30,7 @@
 #   MVNW_VERBOSE - true: enable verbose log; debug: trace the mvnw script; others: silence the output
 # ----------------------------------------------------------------------------
 
-set -euf
+et -euf
 [ "${MVNW_VERBOSE-}" != debug ] || set -x
 
 # OS specific support.
