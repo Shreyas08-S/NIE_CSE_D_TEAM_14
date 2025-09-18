@@ -2,14 +2,18 @@ package com.NIED.controller;
 
 import com.NIED.model.Recharge;
 import com.NIED.service.RechargeService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+
 @RestController
 @RequestMapping("/api/recharges")
+
 public class RechargeController {
+
 
     @Autowired
     private RechargeService rechargeService;
